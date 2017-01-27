@@ -1,5 +1,5 @@
 {
-  "name": "laravel-plus/logger",
+  "name": "laravel-x/logger",
   "description": "Logger Plus",
   "keywords": [
     "Laravel",
@@ -26,7 +26,7 @@
     "files": [
     ],
     "psr-4": {
-      "LaravelPlus\\Logger\\": "src"
+      "LaravelX\\Logger\\": "src"
     }
   }
 }
