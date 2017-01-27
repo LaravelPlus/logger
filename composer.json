@@ -1,0 +1,32 @@
+{
+  "name": "laravel-plus/logger",
+  "description": "Logger Plus",
+  "keywords": [
+    "Laravel",
+    "utils"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "orvice",
+      "email": "orvice@orx.me"
+    }
+  ],
+  "require": {
+    "monolog/monolog": "^1.19",
+    "psr/log": "^1.0",
+    "graylog2/gelf-php": "^1.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.0"
+  },
+  "autoload": {
+    "classmap": [
+    ],
+    "files": [
+    ],
+    "psr-4": {
+      "LaravelPlus\\Logger\\": "src"
+    }
+  }
+}
